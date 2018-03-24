@@ -29,8 +29,7 @@
 ```
 # Guideline Problem 1
 1.Enter problem-1 folder and open index.html on your browser
-*Project modification
-2. Enter the problem-1 folder and run command
+2.[Project modification] Enter the problem-1 folder and run command
 ```
 npm install
 ```
