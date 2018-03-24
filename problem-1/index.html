@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Test PSD to HTML</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="icon" href="assets/img/favicon.png" type="image/png">
+</head>
+<body>
+    <!-- START Header -->
+    <header class="header position-relative">
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a class="navbar-brand" href="#"><img src="assets/img/logo.png" alt="site name"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Upcoming</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Result</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">News</a>
+                    </li>
+                </ul>
+                <form class="form-inline">
+                    <input class="form-control mr-10" type="email" placeholder="Email Address">
+                    <input class="form-control mr-10" type="password" placeholder="Password">
+                    <button class="btn btn-info text-white mr-10" type="submit">Login</button>
+                    <a href="#" class="text-purple">Register</a>
+                </form>
+            </div>
+        </nav>
+
+        <div class="share-links text-right">
+            <div class="app-store-links mb-20 mb-lg-50 d-none d-sm-block">
+                <a href="#" target="_blank"><img src="assets/img/google-play.png" alt="gplay"></a>
+                <a href="#" target="_blank"><img src="assets/img/apple-store.png" alt="apple"></a>
+            </div>
+    
+            <div class="social-links">
+                <div class="mb-10">Share with friends</div>
+                <a href="#" target="_blank"><img src="assets/img/facebook.png" alt="facebook"></a>
+                <a href="#" target="_blank"><img src="assets/img/twitter.png" alt="twitter"></a>
+                <a href="#" target="_blank"><img src="assets/img/google-plus.png" alt="google-plus"></a>
+            </div>
+        </div>
+
+    </header>
+    <!-- END Header -->
+
+    <!-- START Main Content Area -->
+    <div class="main-content-wrap bg-white">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-10 p-0 bg-light">
+                    <div class="service-wrapper">
+                        <ul class="nav bg-purple nav-justified text-center" id="service-tab" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link pt-40 pb-50" id="result-tab" data-toggle="pill" href="#result" role="tab" aria-controls="result" aria-selected="false"> 
+                                    <img class="d-block mx-auto mb-25" data-active="assets/img/result-active.png" src="assets/img/result.png" alt="ফলাফল">
+                                    ফলাফল
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link pt-40 pb-50" id="form-create-tab" data-toggle="pill" href="#form-create" role="tab" aria-controls="form-create" aria-selected="false"> 
+                                    <img class="d-block mx-auto mb-25" data-active="assets/img/fillup-form-active.png" src="assets/img/fillup-form.png" alt="ফর্ম  তৈরী করুন">
+                                    ফর্ম  তৈরী করুন
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active pt-40 pb-50" id="news-tab" data-toggle="pill" href="#news" role="tab" aria-controls="news" aria-selected="true">
+                                    <img class="d-block mx-auto mb-25" data-active="assets/img/news.png" src="assets/img/news-active.png" alt="সংবাদ">
+                                    সংবাদ
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="tab-content py-30" id="pills-tabContent">
+                            <div class="tab-pane fade" id="result" role="tabpanel" aria-labelledby="result-tab">
+                                <div class="row m-0">
+                                    <div class="col-md-7">
+                                        <ul>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <ul>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div> <!-- result tab content-->
+
+                            <div class="tab-pane fade" id="form-create" role="tabpanel" aria-labelledby="form-create-tab">
+                                <div class="row m-0">
+                                    <div class="col-md-7">
+                                        <ul>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <ul>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>  <!-- form create tab content-->
+
+                            <div class="tab-pane fade show active" id="news" role="tabpanel" aria-labelledby="news-tab">
+                                <div class="row m-0">
+                                    <div class="col-md-7">
+                                        <ul>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <ul>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                            <li><a href="#">Lorem Ipsum is simply dummy text </a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>  <!-- news tab content-->
+                        </div>
+                    </div>  <!-- service-wrapper -->
+
+                    <div class="feature-wrapper text-center">
+                        <div class="feature-title pt-50 pb-30 px-15 text-purple">আমাদের এখানে যা পাবেন</div>
+                        <div class="row m-0">
+                            <div class="col-sm-4">
+                                <div class="feature-item">
+                                    <img src="assets/img/desktop.png" alt="title">
+                                    <p class="pt-30 pb-40 mb-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                </div>
+                            </div> <!-- col -->
+                            <div class="col-sm-4">
+                                <div class="feature-item">
+                                    <img src="assets/img/checklist.png" alt="title">
+                                    <p class="pt-30 pb-40 mb-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                </div>
+                            </div> <!-- col -->
+                            <div class="col-sm-4">
+                                <div class="feature-item">
+                                    <img src="assets/img/finder.png" alt="title">
+                                    <p class="pt-30 pb-40 mb-0">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                                </div>
+                            </div> <!-- col -->
+                        </div>
+                    </div> <!--  feature-wrapper -->
+                </div> <!-- content col -->
+
+                <div class="col-lg-2 sidebar">
+                    <div class="row py-15 py-lg-0">
+                        <div class="col-lg-12 col-sm-6">
+                            <a href="#"><img src="assets/img/sidebar-ad.jpg" class="img-fluid d-block mb-15 mx-auto" alt="add"></a>
+                        </div>
+                        <div class="col-lg-12 col-sm-6">
+                            <div>
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fnascenia%2F&tabs&width=340&height=154&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" style="border:none;overflow:hidden;width:100%; height:154px;"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- sidebar col -->
+            </div>
+        </div> <!-- container -->
+    </div>
+    <!-- END Main Content Area -->
+
+    <!-- START Package Area -->
+    <div class="package-wrapper bg-purple py-40 px-md-25 px-10">
+        <div class="container-fluid">
+            <div class="package-title text-white text-center pb-20">মূল্য তালিকা </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 package-item mb-20 mb-lg-40 px-5">
+                    <ul class="list-group">
+                        <li class="list-group-item text-center package-head text-white">Micro</li>
+                        <li class="list-group-item"># Accounts <span class="float-right">Up to 5</span></li>
+                        <li class="list-group-item">News & Blogs <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Blank Forms <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Result Search <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Import <span class="float-right"><img src="assets/img/cross.png" alt="cross icon"></span></li>
+                        <li class="list-group-item">Export <span class="float-right"><img src="assets/img/cross.png" alt="cross icon"></span></li>
+                        <li class="list-group-item">Alert <span class="float-right"><img src="assets/img/cross.png" alt="cross icon"></span></li>
+                        <li class="list-group-item"><strong>COST (Yearly)</strong> <span class="float-right"><strong>About TK.120</strong></span></li>
+                        <li class="list-group-item text-center"><a href="#" class="btn btn-primary">Register</a></li>
+                    </ul>
+                </div><!-- col -->
+                <div class="col-lg-3 col-md-6 col-sm-6 package-item mb-20 mb-lg-40 px-5">
+                    <ul class="list-group">
+                        <li class="list-group-item text-center package-head text-white">Basic</li>
+                        <li class="list-group-item"># Accounts <span class="float-right">Up to 5</span></li>
+                        <li class="list-group-item">News & Blogs <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Blank Forms <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Result Search <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Import <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Export <span class="float-right"><img src="assets/img/cross.png" alt="cross icon"></span></li>
+                        <li class="list-group-item">Alert <span class="float-right"><img src="assets/img/cross.png" alt="cross icon"></span></li>
+                        <li class="list-group-item"><strong>COST (Yearly)</strong> <span class="float-right"><strong>About TK.120</strong></span></li>
+                        <li class="list-group-item text-center"><a href="#" class="btn btn-primary">Register</a></li>
+                    </ul>
+                </div><!-- col -->
+                <div class="col-lg-3 col-md-6 col-sm-6 package-item mb-20 mb-lg-40 px-5">
+                    <ul class="list-group">
+                        <li class="list-group-item text-center package-head text-white">Regular</li>
+                        <li class="list-group-item"># Accounts <span class="float-right">Up to 100</span></li>
+                        <li class="list-group-item">News & Blogs <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Blank Forms <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Result Search <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Import <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Export <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Alert <span class="float-right"><img src="assets/img/cross.png" alt="cross icon"></span></li>
+                        <li class="list-group-item"><strong>COST (Yearly)</strong> <span class="float-right"><strong>About TK.600</strong></span></li>
+                        <li class="list-group-item text-center"><a href="#" class="btn btn-primary">Register</a></li>
+                    </ul>
+                </div><!-- col -->
+                <div class="col-lg-3 col-md-6 col-sm-6 package-item  mb-20 mb-lg-40 px-5">
+                    <ul class="list-group">
+                        <li class="list-group-item text-center package-head text-white">Premium</li>
+                        <li class="list-group-item"># Accounts <span class="float-right">Up to 400</span></li>
+                        <li class="list-group-item">News & Blogs <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Blank Forms <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Result Search <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Import <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Export <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item">Alert <span class="float-right"><img src="assets/img/check.png" alt="check icon"></span></li>
+                        <li class="list-group-item"><strong>COST (Yearly)</strong> <span class="float-right"><strong>About TK.1200</strong></span></li>
+                        <li class="list-group-item text-center"><a href="#" class="btn btn-primary">Register</a></li>
+                    </ul>
+                </div><!-- col -->
+            </div> <!-- row -->
+
+            <div class="text-center">
+                <a href="#" class="btn btn-lg btn-light">Try for free</a>
+            </div>
+        </div> <!-- container -->
+    </div>
+    <!-- END Package Area -->
+
+    <!-- START Footer -->
+    <footer class="footer py-30 px-md-15 text-purple">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-10 text-center text-sm-right order-sm-12">
+                    <ul class="list-inline p-0 mb-0">
+                        <li>Help</li>
+                        <li>Contact: <a href="tel:017xxxxxxxx">017xxxxxxxx</a></li>
+                        <li>Email: <a href="mail:support@example.com">Support@example.com</a></li>
+                    </ul>
+                    <div class="working-hour">(10 AM to 6 PM, Sunday to Thursday)</div>
+                </div>
+                <div class="col-sm-2 copyright text-center text-sm-left pt-10 pt-sm-0">&copy; 2017</div>
+            </div>
+        </div>
+    </footer>
+    <!-- END Footer -->
+    
+
+    <script src="assets/js/bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Form Validation</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="container py-5">
+        <h3 class="text-center">Form Validation</h3>
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-5 card p-3">
+                <form action="process.php" role="form" method="post" id="regForm">
+                    <div class="form-group">
+                        <label for="fname">First Name <span class="require">*</span></label>
+                        <input type="text" name="fname" id="fname" class="form-control">
+                        <div class="error-msg"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Last Name </label>
+                        <input type="text" name="lname" id="lname" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="mobile">Mobile <span class="require">*</span></label>
+                        <input type="number" name="mobile" id="mobile" class="form-control">
+                        <div class="error-msg"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address <span class="require">*</span></label>
+                        <input type="text" name="address" id="address" class="form-control">
+                        <div class="error-msg"></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="city">City <span class="require">*</span></label>
+                                <input type="text" name="city" id="city" class="form-control">
+                                <div class="error-msg"></div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="zip">Zip Code <span class="require">*</span></label>
+                                <input type="text" name="zip" id="zip" class="form-control">
+                                <div class="error-msg"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email <span class="require">*</span></label>
+                        <input type="email" name="email" id="email" class="form-control">
+                        <div class="error-msg"></div>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+                    </div>
+                </form>
+
+                <div id="formMsg"></div>
+            </div>
+        </div>
+    </div>
+
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,54 @@
+.header {
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 0;
+    display: block;
+    padding-bottom: 38.67%;
+
+    .form-inline {
+        .form-control {
+            height: 20px;
+            font-size: 10px;
+            padding: 2px 5px;
+        }
+
+        input[type='email'] {
+            width: 140px;
+        }
+
+        input[type='password'] {
+            width: 90px;
+        }
+
+        .btn {
+            padding: 4px 10px;
+            font-size: 10px;
+            cursor: pointer;
+            line-height: 1;
+        }
+    }
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.875rem;
+    padding-left: 1.875rem;
+    font-size: 16px;
+    line-height: 1;
+    background-color: $purple;
+    margin-right: 2px;
+}
+
+.navbar-brand {
+    margin-right: 3.125rem;
+}
+
+.navbar-collapse {
+    padding-top: 1rem;
+}
+
+.share-links {
+    position: absolute;
+    right: 30px;
+    bottom: 20px;
+}

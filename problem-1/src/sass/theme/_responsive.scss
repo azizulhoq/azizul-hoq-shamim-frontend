@@ -1,0 +1,132 @@
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {
+
+}
+// (desktops, less than 1200px)
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { 
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+        font-size: 13px;
+    }
+
+    .feature-item {
+        padding: 0;
+    }
+
+    .app-store-links {
+        img {
+            max-width: 100px;
+        }
+    }
+}
+//(tablets, less than 992px)
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) { 
+
+    .navbar {
+        padding: 0.625rem 0.9375rem;
+    }
+
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0.9375rem;
+        padding-left: 0.9375rem;
+        font-size: 14px;
+    }
+
+    .nav-link {
+        padding: 0.625rem 0.9375rem;
+    }
+
+    .header {
+        .navbar-collapse {
+            padding-top: 0;
+            margin: 0 -15px;
+            background: $purple;
+            position: relative;
+            z-index: 15;
+            box-shadow: 0 3px 2px rgba($white, 0.5);
+        }
+
+        .text-purple {
+            color: #fff;
+        }
+
+        .form-inline {
+            padding: 0.9375rem;
+            border-top: 1px solid #eee;
+        }
+    }
+
+    .navbar-light .navbar-toggler {
+        background: $purple;
+    }
+
+    .navbar-toggler-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .navbar-toggler {
+        padding: 5px;
+        line-height: 0;
+    }
+
+    .navbar-brand {
+        img {
+            max-width: 25px;
+        }
+    }
+
+    .share-links {
+        right: 15px;
+        bottom: 10px;
+    }
+
+    .social-links {
+        img {
+            max-width: 20px;
+        }
+    }
+
+    .feature-title,
+    .package-title {
+        font-size: 24px;
+    }
+
+    .footer ul li {
+        padding: 0 7px;
+    }
+
+    .footer .working-hour {
+        padding-right: 0;
+    }
+}
+//(landscape phones, less than 768px)
+
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { 
+
+    .service-wrapper .nav-link {
+        height: 150px;
+        font-size: 16px;
+
+        img {
+            max-width: 40px;
+        }
+    }
+}
+//(portrait phones, less than 576px)
+
+@media (max-width: 480px) { 
+    .header .form-inline {
+       // display: block;
+        input[type='email'], input[type='password'] {
+            width: 45%;
+            margin-bottom: 10px;
+        }
+    }
+}
